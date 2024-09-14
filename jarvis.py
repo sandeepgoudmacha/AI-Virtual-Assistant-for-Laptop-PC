@@ -16,7 +16,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
 
-genai.configure(api_key="AIzaSyDyPs7VWnyLyXq-_U1O8laG4i88qiEgvrI")
+genai.configure(api_key="Your_API_Key")
 
 def speak(audio):
     """Speaks the given audio string."""
