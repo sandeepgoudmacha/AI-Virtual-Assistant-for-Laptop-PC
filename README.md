@@ -1,6 +1,8 @@
-#AI-Powered Virtual Assistant
+#AI-Powered Virtual Assistant 
+
 ##Overview
-This project is an AI-powered virtual assistant that performs various tasks through voice commands. It automates tasks like web searching, sending emails, opening system applications, and retrieving real-time information using APIs such as Wikipedia, YouTube Search, and Google Generative AI.
+This project is an AI-powered virtual assistant that performs various tasks through voice commands. It automates tasks like web searching, sending emails, opening system applications, and retrieving real-time information using APIs such as Wikipedia, YouTube Search, and Google Generative AI. 
+
 
 ##Technologies Used
 Python: Core programming language for building the assistant.
@@ -11,7 +13,8 @@ Webbrowser: Automates browsing tasks like opening YouTube, Google, etc.
 smtplib: Sends emails via voice commands using Gmail's SMTP protocol.
 YoutubeSearch: Searches YouTube for specific queries and returns the top results.
 Google Generative AI (Gemini): Provides AI-generated responses to user queries.
-Subprocess: Executes system commands to open local applications like Notepad, Calculator, etc.
+Subprocess: Executes system commands to open local applications like Notepad, Calculator, etc. 
+
 ##Features
 Voice Commands: Interact with the assistant via voice, performing various tasks hands-free.
 Web Automation: Automatically opens websites such as Google, YouTube, and Stack Overflow.
