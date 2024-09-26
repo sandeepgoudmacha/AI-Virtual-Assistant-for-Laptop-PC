@@ -4,7 +4,6 @@
 
 This project is an AI-powered virtual assistant that performs various tasks through voice commands. It automates tasks like web searching, sending emails, opening system applications, and retrieving real-time information using APIs such as Wikipedia, YouTube Search, and Google Generative AI. 
 
-
 ## Technologies Used 
 
 ### Python:
