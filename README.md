@@ -56,23 +56,25 @@ Before installing Jarvis, ensure you have the following:
 - **Python 3.x** installed on your system.
 - **pip** (Python package installer) to manage dependencies.
 
-**Step 1**:
+## **Step 1**:
 **Download or clone the Jarvis repository from GitHub:**
 
 **git clone https://github.com/sandeepgoudmacha/jarvis.git**
+
 **cd jarvis**
 
-**Step 2**: **Install the Required Packages**
+## **Step 2**: **Install the Required Packages**
 Install the necessary dependencies using pip. These packages are listed in the requirements.txt file. Use the following command:
+
 **pip install -r requirements.txt**
 
-**Step 3**: **API Key Setup**
+## **Step 3**: **API Key Setup**
 To enable all functionalities, you'll need API keys for certain services:
 
 -**OpenWeatherMap API**: Create an account on OpenWeatherMap and get your API key. Replace the YOUR_API_KEY in the code with your actual key:
 -**Google Generative AI**: Sign up for Google's Generative AI API. Add your API credentials in the relevant parts of the code.
 
-**Step 4**:**Running Jarvis**
+## **Step 4**:**Running Jarvis**
 After setting up everything, you can run the assistant by navigating to the project folder and executing:
 
 **python jarvis.py**
