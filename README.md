@@ -59,7 +59,7 @@ Before installing Jarvis, ensure you have the following:
 ## **Step 1**:
 **Download or clone the Jarvis repository from GitHub:**
 
-**git clone https://github.com/sandeepgoudmacha/jarvis.git**
+[**git clone https://github.com/sandeepgoudmacha/jarvis.git**](https://github.com/sandeepgoudmacha/Virtual-Assistant-for-Laptop.git)
 
 **cd jarvis**
 
