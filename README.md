@@ -87,4 +87,4 @@ After setting up everything, you can run the assistant by navigating to the proj
 This will launch the Jarvis voice assistant, along with its graphical interface.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the [MIT License](https://github.com/sandeepgoudmacha/AI-Virtual-Assistant-for-Laptop-PC/tree/main?tab=MIT-1-ov-file#readme). See the LICENSE file for more details.
