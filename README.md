@@ -75,7 +75,11 @@ To enable all functionalities, you'll need API keys for certain services:
 
 -**Google Generative AI**: Sign up for Google's Generative AI API. Add your API credentials in the relevant parts of the code.
 
-## **Step 4**:**Running Jarvis**
+## **Step 4**:Set Path to Virtual keyboard, Mouse, Volume & Brightness Controller in Code
+
+Download the files of Virtual_keyboard, Virtual_mouse, Vitual_volBrtnessControl and add their path in code.
+
+## **Step 5**:**Running Jarvis**
 After setting up everything, you can run the assistant by navigating to the project folder and executing:
 
 **python jarvis.py**
