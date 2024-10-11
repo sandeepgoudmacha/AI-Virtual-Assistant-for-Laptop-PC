@@ -24,6 +24,8 @@ Jarvis is packed with a wide range of features to help automate tasks and make y
 - **Weather Updates**: Get the latest weather information for any city.
 - **Customizable GUI**: Switch between light and dark themes with a toggle button.
 - **Voice Control and GUI Interaction**: Control Jarvis with your voice or through a user-friendly graphical interface.
+- **Generative AI**: Jarvis uses generative AI to provide relevant content and responses to your queries.
+- and Many more features....
 
 ## Technologies and Libraries Used
 
@@ -43,14 +45,21 @@ Jarvis uses a combination of modern Python libraries and tools to deliver a smoo
 - `Flask`: For displaying weather information in a web-based format
 - `scikit-image`: For gesture-controlled mouse functionality
 
-## Installation and Setup
+## Setup and Installation
 
-### Requirements
+To get Jarvis up and running on your machine, follow these steps:
 
-Before you begin, ensure you have met the following requirements:
+### Prerequisites
 
-- **Python 3.x** installed on your machine.
-- Install necessary dependencies by running:
+Before installing Jarvis, ensure you have the following:
+
+- **Python 3.x** installed on your system.
+- **pip** (Python package installer) to manage dependencies.
+
+### Clone the Repository
+
+Download or clone the Jarvis repository from GitHub:
 
 ```bash
-pip install pyttsx3 speechrecognition wikipedia-api webbrowser pyjokes pygame Pillow customtkinter
+git clone https://github.com/sandeepgoudmacha/jarvis.git
+cd jarvis
