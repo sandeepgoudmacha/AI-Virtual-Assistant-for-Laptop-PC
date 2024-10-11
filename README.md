@@ -71,9 +71,9 @@ Install the necessary dependencies using pip. These packages are listed in the r
 ## **Step 3**: **API Key Setup**
 To enable all functionalities, you'll need API keys for certain services:
 
--**OpenWeatherMap API**: Create an account on OpenWeatherMap and get your API key. Replace the YOUR_API_KEY in the code with your actual key 
+-**OpenWeatherMap API**: Create an account on [**OpenWeatherMap**](https://openweathermap.org/api) and get your API key. Replace the YOUR_API_KEY in the code with your actual key 
 
--**Google Generative AI**: Sign up for Google's Generative AI API. Add your API credentials in the relevant parts of the code.
+-**Google Generative AI**: Sign up for [**Google's Generative AI API**](https://ai.google.dev/aistudio?gad_source=1&gclid=CjwKCAjwmaO4BhAhEiwA5p4YL2_PeGFiWpbKacf7nF1Kwx0_aduoPZUIVwNZZYKoo9VXGG6Y9vmoARoC14MQAvD_BwE). Add your API credentials in the relevant parts of the code.
 
 ## **Step 4**:Set Path to Virtual keyboard, Mouse, Volume & Brightness Controller in Code
 
