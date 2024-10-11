@@ -1,4 +1,4 @@
-# Jarvis - Personal AI Vitual Assistant for Laptop and PC
+# Jarvis - Personal AI Virtual Assistant for Laptop and PC
 
 Welcome to **Jarvis**, your personal AI Virtual & Voice assistant powered by Python! Jarvis is designed to make your everyday tasks easier by responding to voice commands and performing actions like searching the web, sending emails, playing music, controlling system settings, and much more. Jarvis even has a sleek GUI interface for easy interaction, featuring real-time responses, and image integration for a rich user experience.
 
