@@ -405,10 +405,11 @@ def get_answer_from_gemini(query):
         return f"Gemini API error: {str(e)}"
 
 def process_query(query):
-    global volume_process, brightness_process, mouse_process 
+    global volume_process, brightness_process, mouse_process, keyboard_process
     volume_process=None
     brightness_process=None
     mouse_process=None
+    keyboard_process=None
     if 'wikipedia' in query:
         response = 'Searching Wikipedia...'
         query = query.replace("wikipedia", "")
@@ -500,7 +501,19 @@ def process_query(query):
             response = "Stopping virtual mouse controller."
         else:
             response = "Mouse controller is not running."
-
+            
+    elif 'open virtual keyboard' in query or 'start virtual keyboard' in query:
+        subprocess.Popen(['python','C:\\Users\\Nites\\OneDrive\\Desktop\\Virtualassistant\\virtual_keyboard.py'])  # Update with the correct path
+        response = "Opening virtual Keyboard."
+    
+    elif 'stop virtual keyboard' in query or 'stop keyboard' in query:
+        if keyboard_process is not None:
+            keyboard_process.terminate()  # Terminate the process
+            keyboard_process = None  # Set it back to None after termination
+            response = "Stopping virtual keyboard."
+        else:
+            response = "keyboard controller is not running."
+            
     elif 'open virtual volume controller' in query or 'open volume controller' in query:
         subprocess.Popen(['python','C:\\Users\\Nites\\Volume_and_Brightness_Control_Using_Hand_Gestures\\volBrtnessControl.py'])  # Update with the correct path
           # I uploaded a code with volBrtnessControl.py download it and set path of it in above.
